@@ -79,3 +79,146 @@ body{
 .banner-img img{
     width: 93%;
 }
+
+#about{
+    display: flex;
+    padding: 0 155px 0 155px;
+    background-image: url(img/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-img{
+    width: 50%;
+}
+
+.about-img img{
+    width: 43%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 70px;
+}
+
+.about-text{
+    width: 50%;
+}
+
+.about-text h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #707070;
+    padding-top: 130px;
+}
+
+.about-text p{
+    color: #18191F;
+    font-size: 18;
+    font-weight: 400;
+    line-height: 33px;
+    padding-bottom: 35px;
+    padding-right: 137px;
+}
+
+#recipies{
+    padding: 0px 230px;
+}
+
+.recipies-text h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: #707070;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.recipies-text p{
+    color: #18191F;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.recipies-title{
+    display: flex;
+    padding: 30px 0;
+}
+
+.recipies-title-left{
+    width: 33.33%;
+    box-shadow: 3px 4px 34px -20px #000;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.recipies-title-left img{
+    width: 100%;
+}
+
+.recipies-title-left h3{
+    color: #18191F;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.recipies-title-left p{
+    color: #18191F;
+    font-size: 18px;
+    line-height: 28px;
+    padding-right: 30px;
+}
+
+.recipies-two{
+    margin: 0 80px;
+}
+
+#count {
+    display: flex;
+    margin: 70px 230px 90px;
+    box-shadow: 3px 4px 34px -20px #000;
+    padding: 20px 0 48px;
+    border-radius: 20px;
+}
+
+.count-left{
+    width: 33.33%;
+}
+
+.count-left h3{
+    color: #18191F;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.count-left p{
+    color: #18191F;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#footer{
+    background-color: #0B0D17;
+    padding: 60px 0 140px;
+}
+
+.footer-inner h2{
+    font-size: 30px;
+    color: #5B5B5B;
+    text-align: center;
+}
+
+.footer-inner h2 span{
+    color: #FB994C;
+}
+
+.footer-inner p{
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
