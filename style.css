@@ -35,7 +35,7 @@ body{
     display: inline-block;
     text-decoration: none;
     color: #575757;
-    font-size: 20px;
+    font-size: 18px;
     padding-left: 23px;
 }
 
@@ -276,27 +276,6 @@ body{
     box-shadow: 3px 4px 25px -10px #000;
     font-family: 'Montserrat', sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #footer{
     background-color: #0B0D17;
