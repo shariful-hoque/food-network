@@ -7,7 +7,7 @@ body{
 #header{
     display: flex;
     padding: 16px 155px 16px 155px;
-    /* background-color: #FFF4ED; */
+    background-color: #FFF4ED;
 }
 
 .logo{
@@ -15,7 +15,7 @@ body{
 }
 
 .logo a img{
-    width: 65%;
+    width: 96%;
     margin-top: 8px;
 }
 
@@ -29,7 +29,13 @@ body{
 
 .menu ul li{
     display: inline-block;
-    font-size: 16px;
+}
+
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #575757;
+    font-size: 20px;
     padding-left: 23px;
 }
 
@@ -107,7 +113,7 @@ body{
     font-size: 40px;
     font-weight: 700;
     color: #707070;
-    padding-top: 130px;
+    padding-top: 40px;
 }
 
 .about-text p{
@@ -199,6 +205,98 @@ body{
     line-height: 28px;
     text-align: center;
 }
+
+#contact-part{
+    display: flex;
+    margin: 70px 230px 90px;
+}
+
+.contact-img{
+    width: 50%;
+}
+
+.contact-img h2{
+    font-size: 35px;
+}
+
+.contact-img p{
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.contact-img h4{
+    padding-top: 10px;
+}
+
+.contact-img h5{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.contact-form{
+    width: 50%;
+    padding-top: 35px;
+}
+
+.contact-form form input {
+    width: 70%;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #FC954B;
+}
+
+.contact-form form input::placeholder{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+
+}
+
+.contact-form form textarea{
+    width: 70%;
+    height: 160px;
+    margin-bottom: 20px;
+    border: 1px solid #FC954B;
+}
+
+.contact-form form textarea::placeholder{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px; 
+}
+
+.contact-form form button{
+    border: 0;
+    background: linear-gradient(80deg, rgba(251,153,76,1) 0%, rgba(254,72,46,1) 100%);
+    color: #fff;
+    padding: 21px 40px;
+    border-radius: 27px;
+    font-weight: 500;
+    box-shadow: 3px 4px 25px -10px #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #footer{
     background-color: #0B0D17;
